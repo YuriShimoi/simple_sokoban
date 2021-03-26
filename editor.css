@@ -1,0 +1,19 @@
+.editor-btns {
+  float: left;
+  bottom: 10px;
+  top: auto;
+  left: 10px;
+  position: fixed;
+}
+
+.editor-btn {
+  min-width: 100px;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  background: var(--contrast);
+  border: 2px solid var(--contrast);
+  cursor: pointer;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Sokoban Editor</title>
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="content"></div>
+    <div class="editor-btns">
+      <button id="tool-btn" class="editor-btn" onclick="changeTool()">TILE</button>
+      <button class="editor-btn" onclick="generateParams()">LOAD GAME</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="hexbin.js"></script>
+    <script src="editor.js"></script>
+    <script src="pusher.js"></script>
+  </body>
+</html>
