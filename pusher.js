@@ -105,20 +105,25 @@ function hasBox(x, y){
 function canMove(){
   $(window).keydown(function(e){
     let key = e.which || e.keyCode;
+    
     switch(key){
       case 87:
+      case 38:
         try{movePerson(0, -1)}
         catch{};
         break;
       case 65:
+      case 37:
         try{movePerson(-1, 0)}
         catch{};
         break;
       case 83:
+      case 40:
         try{movePerson(0, 1)}
         catch{};
         break;
       case 68:
+      case 39:
         try{movePerson(1, 0)}
         catch{};
         break;
